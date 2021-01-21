@@ -1,4 +1,4 @@
-// Assignment 3 Repository Link: 
+// Assignment 3 Repository Link: https://github.com/Alamin8/assignment3
 
 
 // kilometerToMeter Problem Solving- Problem=>1
@@ -6,7 +6,7 @@ function kilometerToMeter(km) {
     let meter = km * 1000;
     return meter;
 }
-let meterCheck = kilometerToMeter(20);
+let meterCheck = kilometerToMeter(20); //Demo value
 console.log(meterCheck);
 // End kilometerToMeter Problem-1
 
@@ -20,7 +20,7 @@ function budgetCalculator(watchQty, mobileQty, laptopQty) {
     let result = [watchPrice, mobilePrice, laptopPrice]; //find the result in an array
     return result;
 }
-let budgetCheck = budgetCalculator(0, -10, 20);
+let budgetCheck = budgetCalculator(0, -10, 20); //Demo value
 console.log(budgetCheck);
 // End budgetCalculator Problem-2
 
@@ -45,7 +45,7 @@ function hotelCost(day) {
     }
     return dayCost;
 }
-let totalCost = hotelCost(15);
+let totalCost = hotelCost(15); //Demo value
 console.log(totalCost)
 // End hotelCost Problem-3
 
@@ -63,6 +63,6 @@ function megaFriend(arr) {
     }
     return result;
 }
-var checkLongestName = megaFriend(friendList);
-console.log(checkLongestName);
+var checkLongestName = megaFriend(friendList); //Demo value
+console.log(checkLongestName); 
 // End megaFriend Problem-4
